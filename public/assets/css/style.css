@@ -1,0 +1,65 @@
+/* common css */
+
+.cursor{
+    cursor: pointer;
+}
+
+
+.own-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #050607;
+    color: #fff;
+}
+
+.own-grid-wrapper{
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 30px;
+}
+
+.grid-wrapper{
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+}
+.card-title{
+    font-size: 1.2rem;
+}
+
+.card-dot-container{
+    font-size: 1.5rem;
+}
+
+.img-wrapper img{
+    border-radius: 5px 5px 0 0 ;
+}
+.card-txt-details{
+    color: #9f9f9f;
+}
+
+.square-box-wrapper{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 8%;
+    top: 8%;
+    background-color: black;
+    box-shadow: 0 0 3px #000000;
+    border-radius: 4px;
+    z-index: 2;
+}
+.square-box-wrapper:before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border: 2px solid #9f9f9f;
+    border-radius: 2px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
